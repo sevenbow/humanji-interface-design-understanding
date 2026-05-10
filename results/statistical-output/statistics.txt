@@ -1,0 +1,17 @@
+======================================================================
+STATISTICAL ANALYSIS: HIM-18 Interface Design
+Generated: 2026-05-10 04:29:55
+
+One-way ANOVA (Comprehension ~ Interface): F(4, 195) = 15.10, p < .001
+
+Post-hoc Tukey HSD results:
+  Baseline (Feature List) vs Causal Graph: d=0.978, p_adj=0.0005 ***
+  Baseline (Feature List) vs Contrastive Explain: d=1.122, p_adj=0.0000 ***
+  Baseline (Feature List) vs Interactive Query: d=1.658, p_adj=0.0000 ***
+  Baseline (Feature List) vs Progressive Disclosure: d=1.096, p_adj=0.0001 ***
+  Causal Graph vs Contrastive Explain: d=0.259, p_adj=1.0000 ns
+  Causal Graph vs Interactive Query: d=0.791, p_adj=0.0079 **
+  Causal Graph vs Progressive Disclosure: d=0.152, p_adj=1.0000 ns
+  Contrastive Explain vs Interactive Query: d=0.460, p_adj=0.4560 ns
+  Contrastive Explain vs Progressive Disclosure: d=-0.118, p_adj=1.0000 ns
+  Interactive Query vs Progressive Disclosure: d=-0.628, p_adj=0.0693 ns

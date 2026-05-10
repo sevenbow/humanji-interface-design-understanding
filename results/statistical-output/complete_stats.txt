@@ -1,0 +1,40 @@
+STATISTICAL ANALYSIS: HIM-18 Interface Design
+============================================================
+N = 200
+
+One-way ANOVA (Comprehension): F(4,195) = 15.10, p < .001
+  Baseline (Feature List): M=0.5594
+  Causal Graph: M=0.6824
+  Contrastive Explain: M=0.7159
+  Interactive Query: M=0.7781
+  Progressive Disclosure: M=0.7003
+
+Post-hoc Tukey HSD (Comprehension):
+  Baseline (Feature List) vs Causal Graph: d=0.978, p_adj=0.0005 ***
+  Baseline (Feature List) vs Contrastive Explain: d=1.122, p_adj=0.0000 ***
+  Baseline (Feature List) vs Interactive Query: d=1.658, p_adj=0.0000 ***
+  Baseline (Feature List) vs Progressive Disclosure: d=1.096, p_adj=0.0001 ***
+  Causal Graph vs Contrastive Explain: d=0.259, p_adj=1.0000 ns
+  Causal Graph vs Interactive Query: d=0.791, p_adj=0.0079 **
+  Causal Graph vs Progressive Disclosure: d=0.152, p_adj=1.0000 ns
+  Contrastive Explain vs Interactive Query: d=0.460, p_adj=0.4560 ns
+  Contrastive Explain vs Progressive Disclosure: d=-0.118, p_adj=1.0000 ns
+  Interactive Query vs Progressive Disclosure: d=-0.628, p_adj=0.0693 ns
+
+One-way ANOVA (Trust Calibration): F = 5.32, p = 0.0004
+One-way ANOVA (Error Detection): F = 7.69, p = 0.0000
+One-way ANOVA (Task Time): F = 41.28, p = 0.000000
+
+Mental Model Dimensions:
+  Structural: F = 9.92, p < .001
+  Behavioral: F = 5.73, p < .001
+  Boundary: F = 4.87, p < .001
+  Causal: F = 3.51, p = 0.0086
+
+Trust Calibration pairwise (best vs baseline):
+  Baseline vs Causal Graph: d=0.576, p=0.012885 *
+  Baseline vs Contrastive Explain: d=0.745, p=0.001502 **
+  Baseline vs Interactive Query: d=0.855, p=0.000309 ***
+  Baseline vs Progressive Disclosure: d=0.862, p=0.000279 ***
+
+Comprehension × Trust Calibration: r = 0.5785

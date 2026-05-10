@@ -1,0 +1,6 @@
+Interface,N,Comprehension,Structural,Behavioral,Boundary,Causal,Task Time (s),Trust Cal,Error Detect
+Baseline (Feature List),40,0.559±0.138,0.496,0.484,0.400,0.262,446,0.316,0.644
+Causal Graph,40,0.682±0.116,0.596,0.576,0.437,0.369,406,0.401,0.682
+Contrastive Explain,40,0.716±0.144,0.616,0.608,0.497,0.327,369,0.436,0.750
+Interactive Query,40,0.778±0.129,0.713,0.628,0.551,0.415,348,0.465,0.771
+Progressive Disclosure,40,0.700±0.122,0.604,0.594,0.516,0.333,297,0.455,0.705
